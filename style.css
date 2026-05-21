@@ -1,0 +1,141 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg,#0f172a,#1e293b,#334155);
+    min-height: 100vh;
+}
+
+.container
+{
+    width: 420px;
+    margin: 60px auto;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    padding: 35px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    color: white;
+}
+
+h1,h2,h3
+{
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+label
+{
+    font-size: 15px;
+    font-weight: 600;
+    color: #e2e8f0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+input[type="file"]
+{
+    width: 100%;
+    padding: 14px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.12);
+    color: white;
+    font-size: 15px;
+}
+
+input::placeholder,
+textarea::placeholder
+{
+    color: #cbd5e1;
+}
+
+input[type="submit"],
+button
+{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(to right,#3b82f6,#06b6d4);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover,
+button:hover
+{
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(59,130,246,0.5);
+}
+
+a
+{
+    text-decoration: none;
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+table
+{
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    overflow: hidden;
+    color: white;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+}
+
+table th
+{
+    background: #2563eb;
+    padding: 16px;
+    font-size: 15px;
+}
+
+table td
+{
+    padding: 14px;
+    text-align: center;
+}
+
+tr:nth-child(even)
+{
+    background: rgba(255,255,255,0.05);
+}
+
+#chatbox
+{
+    width: 75%;
+    margin: 30px auto;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 25px;
+    height: 450px;
+    overflow-y: auto;
+    color: white;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+#chatbox p
+{
+    background: rgba(255,255,255,0.08);
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
